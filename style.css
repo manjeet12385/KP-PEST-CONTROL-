@@ -421,6 +421,17 @@ section {
   margin: 0;
 }
 
+.footer-credit-link {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.footer-credit-link:hover {
+  color: var(--color-accent);
+}
+
 .footer-socials {
   display: flex;
   gap: 12px;
